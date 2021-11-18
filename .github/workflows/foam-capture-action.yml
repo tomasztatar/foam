@@ -17,7 +17,7 @@ jobs:
         capture: ${{ github.event.inputs.data }}
         
     - run: |
-        git config --local user.email "example@gmail.com"
-        git config --local user.name "Your name"
+        git config --local user.email "foam-capture-action@gmail.com"
+        git config --local user.name "Foam capture action"
         git commit -m "Captured from workflow trigger" -a
         git push -u origin master
